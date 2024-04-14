@@ -48,3 +48,10 @@
 //     navitem.style.fontWeight = "bold"
 //     navitem.style.padding = "10px"
 // }
+
+const navItems = document.getElementsByTagName("a")
+
+for(i=0; i<navItems.length; i++){
+    const navitem = navItems[i]
+    navitem.style.background = "red"
+}
