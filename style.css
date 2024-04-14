@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background: #070606ee;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    position: relative;
+    min-height: 60vh;
+    background: #3ba3199f;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0%, 100% 86%, 0 100%);
+}
+.container{
+    max-width: 1200;
+    margin: auto;
+    width: 90%;
+}
+.nav {
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_items {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 50%);
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* todo-section */
+.todo-section{
+    height: 40vh;
+    text-align: center;
+    padding: 5rem;
+    /* margin-top: 5rem; */
+    color: #fff;
+    border-radius: 10px;
+}
+.todo-form {
+    background: #fff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.todo-form input[type = "text"] {
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ddd;
+    border: 2px solid #222;
+    border-radius: 10px;
+}
+.todo-form input[type = "submit"] {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #3ba319;
+    border: 2px solid #222;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* sign up from */
+.signup-section {
+    background: #2e6e18;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding: 5rem 0;
+}
+.from-group {
+    margin-top: 1.5rem;
+}
+.signup-form{
+    color: #fff;
+    max-width: 50%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.signup-form input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    border-radius: 5px;
+    outline: none;
+}
+.signup-form label {
+    display: block;
+    margin-bottom: .3rem;
+}
+.signup-form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: .5rem;
+    border-radius: 5px;
+    outline: none;
+}
+.signup-form-btn {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ededed;
+    border: 2px solid #222;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 1.4rem;
+}

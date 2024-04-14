@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container nav">
+            <h1 class="logo">Mysite</h1>
+            <ul class="nav_items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">To DO</a></li>
+                <li><a href="#">sign Up</a></li>
+            </ul>
+        </nav>
+
+        <div class="headline">
+            <h2 id="main-heading">Manage Your Task</h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+
+    <section class="todo-section container">
+        <h2 class="todo-heading">what is your plan today?</h2>
+        <form action="#" class="todo-form">
+            <input type="text" name="" id="" placeholder="ADD TO DO">
+            <input type="submit" class="btn" value="ADD TO DO">
+        </form>
+    </section>
+
+    <section class="signup-section">
+        <div class="container">
+            <form action="#" class="signup-form">
+                <div class="from-group">
+                    <label for="Username">User Name</label>
+                    <input type="text" name="Username" id="Username">
+                </div>
+                <div class="from-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="from-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword">
+                </div>
+                <div class="from-group">
+                    <label for="Number">Number</label>
+                    <input type="text" name="Number" id="Number">
+                </div>
+                <div class="from-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="from-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10">message</textarea>
+                </div>
+                <button type="submit" class="btn signup-form-btn ">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- <head> </head> er মধ্যে js file link করলে  defer use korte hobe -----  <script src="script.js defer"></script> -->
