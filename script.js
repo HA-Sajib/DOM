@@ -49,9 +49,9 @@
 //     navitem.style.padding = "10px"
 // }
 
-const navItems = document.getElementsByTagName("a")
+// const navItems = document.getElementsByTagName("a")
 
-for(i=0; i<navItems.length; i++){
-    const navitem = navItems[i]
-    navitem.style.background = "red"
-}
+// for(i=0; i<navItems.length; i++){
+//     const navitem = navItems[i]
+//     navitem.style.background = "red"
+// }
